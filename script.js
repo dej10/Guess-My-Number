@@ -1,19 +1,6 @@
 "use strict";
 
-// DOM
-// Selecting and setting
-
-// console.log(document.querySelector(".message").textContent); // selecting the text property
-// document.querySelector(".message").textContent = "Correct Number 🚀"; // setting the property
-
-// document.querySelector(".number").textContent = 20; // you cant set the text content with (.textContent) for a text property
-// document.querySelector(".score").textContent = 4;
-
-// document.querySelector(".guess").value = 10; // the value method is used to change the VALUE of an input field data
-
-// Event Listeners
-// const randomNumber = () => Math.trunc(Math.random() * 20) + 1;
-let randomNumber = Math.trunc(Math.random() * 20) + 1; // app state
+let randomNumber = Math.trunc(Math.random() * 20) + 1;
 
 let score = 20; // app state
 let highscore = 0; // app state
